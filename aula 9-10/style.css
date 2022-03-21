@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background: #ECF4FF;
+    color: #1C1C1C;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    padding: 64px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil{
+    display: flex;
+}
+
+.perfil-img{
+    border-radius: 464px;
+    max-height: 160px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo{
+    margin-left: 16px;
+}
+
+.titulo h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.titulo h3{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.tema button{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 8px 16px;
+    border-radius: 100px;
+    background: #ECF4FF;
+    border: 2px solid #0e1d2f;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+    margin-top: 32px;
+    padding: 32px;
+    box-shadow: 2px 2px 2px rgba(16, 16, 16, 0.42);
+    border-radius: 20px
+}
+
+.projetos-titulo{
+    list-style: none;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.projetos-item{
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.projetos-item a {
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.dark {
+    background: linear-gradient(236.85deg, #110202 27.26%, #ff0000 96.03%);
+}
+
+.dark .container{
+    background: #333439;
+    color: #f6f6f6;
+}
+
+.dark .tema button{
+    color: #FFFFFF;
+    background: #1C1C1C;
+    box-sizing: border-box;
+    border-radius: 100px;
+    border: 2px solid #F7F7F7;
+}
+
+.dark .projetos{
+    background: linear-gradient(230.65deg, #110202 27.49%, #ff0000 83.19%);
+}
+
+.dark .projetos-item a {
+    color: #969090;
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+    
+::-webkit-scrollbar-thumb{
+    background: #1C1C1C;
+    border: 1.8px solid #1C1C1C;
+    border-radius: 100px;
+}
+    
+::-webkit-scrollbar-thumb:hover{
+   background: #ECF4FF;
+}
+    
+::-webkit-scrollbar-track{
+    background: #ECF4FF;
+    border-radius: 100px;
+    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+    margin: 15px 0px;
+}

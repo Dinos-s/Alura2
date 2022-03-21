@@ -1,0 +1,70 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-color: rgb(0, 0, 255);
+    background-size: 80vh;
+}
+
+header{
+    background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title{
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle{
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo{
+    width: 200px;
+}
+
+.alura-logo{
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.tabela-notas{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466) ;
+}
+
+.result{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+form{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
+
+footer{
+    color: red;
+    font-size: 15pt;
+    font-style: italic;
+    text-align: center;
+}

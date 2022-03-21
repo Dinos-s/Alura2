@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev-aula01</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="page-title">Calculadora de média</h1>
+            <p class="page-subtitle">Qual a sua média de todas as provas</p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" alt="" class="page-logo">
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+    </header>
+    
+    <section class="tabela-notas">
+        <p class="nomeAluno">
+            Aluno: <input type="text" name="aluno" id="nome">
+        </p>
+        <div class="notas">
+            <p class="notas-Bimestrais">
+                Notas 1° Bimestre: <input type="number" name="n1" id="1BI">
+                <br>
+                <br>
+                Notas 2° Bimestre: <input type="number" name="n2" id="2BI">
+                <br>
+                <br>
+                Notas 3° Bimestre: <input type="number" name="n3" id="3BI">
+                <br>
+                <br>
+                Notas 4° Bimestre: <input type="number" name="n4" id="4BI">
+                <br>
+                <input type="button" value="Media" onclick="media()">
+            </p>
+        </div>
+        <div class="result">
+            <option id="resultado">Nome do aluno e total das notas</option>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; G.M.R</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
